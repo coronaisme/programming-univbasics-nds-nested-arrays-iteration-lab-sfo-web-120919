@@ -46,7 +46,7 @@ total = 0
 index = 0
 
 while index < src.length do
-  if src[index] % 2 == 0
+  if src[index][0] % 2 == 0
   total += src[index]
 end
 total
